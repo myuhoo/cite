@@ -1,0 +1,170 @@
+html{
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  word-break: normal;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-size:100%;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+img{
+  max-width:100%;
+}
+
+.site-title{
+  line-height: 1px;
+}
+
+body{
+  color:#24292e;
+}
+
+#header{
+  display:flex;
+  justify-content: space-between;
+  height:270px;
+  align-items: center;
+  margin:0 auto;
+  padding:0 4%;
+  max-width:960px;
+}
+
+nav ul{
+  list-style: none;
+  display:flex;
+  padding:10px 0;
+
+}
+
+nav ul img{
+  width:20px;
+
+}
+nav li{
+  margin-left: 30px;
+  font-size:0.9rem;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+#mainvisual{
+  margin-bottom:80px;
+}
+#mainvisual img{
+  width:100%;
+  max-width: 1920px;
+  height:420px;
+  object-fit: cover;
+}
+
+.wrapper{
+  margin-bottom:80px;
+  padding:0 4%;
+  margin: 0 auto 130px auto;
+  max-width:960px;
+  font-size:0.9rem;
+}
+
+#about ul{
+  list-style:none;
+  margin-bottom: 30px;
+  font-size:0.9rem;
+
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 65px;
+  font-size:1.5rem;
+}
+
+#about li:first-child{
+  margin-bottom: 30px;
+
+}
+#works ul{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+#works li{
+  width: 31%;
+  margin-bottom: 23px;
+}
+#works ul{
+  list-style: none;
+}
+#news dl{
+  display:flex;
+  flex-wrap: wrap;
+  border-top:solid 1px #c8c8c8;
+  margin-bottom:20px;
+}
+#news dt{
+  width:20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding:15px;
+}
+#news dd{
+  width:80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding:15px;
+}
+
+/* お問い合わせ */
+
+#contact dl{
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+}
+#contact dt{
+  width:15%;
+  margin-bottom: 10px;
+}
+#contact dd{
+  width:85%;
+  margin-bottom:10px;
+}
+#contact dd input,textarea{
+  width:100%;
+  border:solid 1px #c8c8c8;
+  padding:10px;
+}
+
+#contact dd textarea{
+  height:10rem;
+}
+
+#contact .bottom{
+  text-align: center;
+}
+
+#contact .bottom input{
+  width:200px;
+  color:#ffffff;
+  background-color:#24292e;
+  border:solid 1px #24292e;
+  padding:15px 0;
+}
+
+footer{
+  text-align:center;
+  background-color:#24292e; 
+  color:#ffffff;
+  font-size:0.5rem;
+  padding:10px 0;
+}
+
+
+botton, input, select, textarea {
+  font: inherit;
